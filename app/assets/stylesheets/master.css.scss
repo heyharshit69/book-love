@@ -113,3 +113,18 @@ a, a:link, a:active, a:visited {
 a:hover {
   color: rgb(255,153,0);
 }
+
+.comments {
+  padding: 20px;
+}
+
+.comment {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.comment_handle {
+  color: rgb(121,12,7);
+  font-weight: bold;
+  font-size: 18px;
+}
