@@ -15,10 +15,11 @@
         Book Porn
       </div>
       <div class="add pull-right">
+      <span class="greeting">
         <% if current_user %>
           <% ind = current_user.email.index('@') %>
           <% username = current_user.email.slice(0, ind) %>
-          Welcome, <%= username %>. 
+          Welcome, <%= username %>.</span>
           <%= link_to "New Post", new_gram_path %> 
           <%= link_to "Sign out", destroy_user_session_path, method: :delete %>
         <% else %>

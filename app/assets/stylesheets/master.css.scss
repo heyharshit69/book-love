@@ -128,3 +128,25 @@ a:hover {
   font-weight: bold;
   font-size: 18px;
 }
+
+
+@media (max-width: 1200px) {
+  span.greeting {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .top-nav {
+    height: 50px;
+  }
+  .brand {
+    font-size: 2em;
+  }
+  .top-nav .add a {
+    font-family: 'Josefin Sans', arial;
+    font-size: 1.2em;
+    margin-top: -5px;
+    padding-left: 8px;
+}
+}
