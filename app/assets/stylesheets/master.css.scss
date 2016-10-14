@@ -1,2 +1,77 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+  background: url('http://kellylougheed.com/images/backgrounds/books.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.top-nav {
+  background-color: rgb(121,12,7);
+  color: white;
+  height: 70px;
+  padding-top: 10px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,.5);
+}
+
+.top-nav .add {
+  margin-top: 10px;
+  float: right;
+}
+
+.top-nav .add a {
+  font-weight: bold;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+  padding-left: 8px;
+}
+
+.brand {
+  float: left;
+  font-family: 'Pacifico', cursive;
+  margin-top: -5px;
+  color: white;
+  font-size: 3em;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,.5);
+  border: 1px solid rgb(121,12,7);
+  margin-top: 40px;
+  padding: 0;
+}
+
+.card.form {
+  padding: 20px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.card p, .card .message {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.handle {
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(121,12,7);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}

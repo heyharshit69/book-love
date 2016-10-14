@@ -5,7 +5,7 @@ class CommentsController < ApplicationController
     @gram = Gram.find_by_id(params[:gram_id])
     return render_not_found if @gram.blank?
 
-    @comment = @gram.comments.create(comment_params.merge(user: current_user))
+    @gram.comments.create(comment_params.merge(user: current_user))
     redirect_to root_path
   end
 
