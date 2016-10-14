@@ -113,6 +113,10 @@ input {
   border-radius: 10px;
 }
 
+.btn-red:hover {
+  color: rgb(255,153,0);
+}
+
 a, a:link, a:active, a:visited {
   text-decoration: none;
   color: rgb(121,12,7);
