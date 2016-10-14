@@ -32,12 +32,20 @@ body {
   color: rgb(255,153,0);
 }
 
-.brand {
+#brand {
   float: left;
   font-family: 'Pacifico', cursive;
   margin-top: -5px;
   color: white;
   font-size: 3em;
+}
+
+#brand a, #brand a:link, #brand a:active, #brand a:visited {
+  color: white;
+}
+
+#brand a:hover {
+  color: rgb(255,153,0);
 }
 
 .card {
@@ -140,7 +148,7 @@ a:hover {
   .top-nav {
     height: 50px;
   }
-  .brand {
+  #brand {
     font-size: 2em;
   }
   .top-nav .add a {
