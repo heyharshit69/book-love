@@ -4,7 +4,10 @@
 
 <% @grams.each do |gram| %>
 <div class="card">
-<div class="handle"><%= gram.user.email %></div>
+<div class="handle">
+<% ind2 = gram.user.email.index('@') %>
+<% username2 = gram.user.email.slice(0, ind2) %>
+<%= username2 %></div>
 <%= image_tag gram.picture, class: 'img-responsive' %>
 <p><%= gram.message %></p>
 
@@ -20,7 +23,9 @@
       <% gram.comments.each do |comment| %>
         <div class="comment">
           <span class="comment_handle">
-            <%= comment.user.email %>
+          <% ind3 = comment.user.email.index('@') %>
+          <% username3 = comment.user.email.slice(0, ind3) %>
+          <%= username3 %>
           </span>
           <%= comment.message %>
         </div>
