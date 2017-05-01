@@ -1,8 +1,8 @@
-<h1>Book Porn</h1>
+<h1>Book Love</h1>
 
 <b>This app was built in Ruby on Rails, HTML, CSS, and Bootstrap.</b>
 
-Book Porn allows users to share photos of books and comment on others' photos.
+Book Love allows users to share photos of books and comment on others' photos.
 
 <h2>Features:</h2>
 
